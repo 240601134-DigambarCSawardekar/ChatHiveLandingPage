@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+.about{
+    display: flex;
+    justify-content: center;
+    background-color: #404EED;
+    flex-direction: column;
+    align-items: center;
+}
+.abt-text-container{
+    align-items: center;
+}
+.abt-img-container{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+}
+.community{
+    width: 100%;
+    height: 100%;
+}
+.abt-heading{
+    font-size: 128px;
+    font-family: 'Actor';
+    color: white;
+}
+.abt-content{
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    width: 800px;
+    font-family: 'Actor';
+    color: white;
+}
+.abt-content-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

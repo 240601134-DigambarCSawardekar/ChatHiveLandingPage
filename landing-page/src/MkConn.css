@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+
+.mc-cont-cont{
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.mc-container{
+    display: flex;
+    flex-direction: row; 
+    background-color: white;
+    height: 800px;
+    width: 1800px;
+    overflow: hidden;
+}
+.mc-img{
+    display: flex;
+    height: 1000px;
+    width: 1000px;
+    overflow: hidden;
+    justify-content: left;
+    transform: translateY(-80px);
+}
+.mc-text-container{
+    display:flex;
+    flex-direction: column;
+    padding-left: 10%;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50px);
+
+  }
+  .mc-header{
+    font-family: 'Actor';
+    font-size: 42px;
+    padding-left: 5%;
+    color: black;
+  }
+  .mc-content{
+    font-family: 'Actor';
+    font-size: 28px;
+    color: black;
+    width: 400px;
+  }

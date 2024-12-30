@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+
+.nav-bar{
+background-color:#404EED;
+display: flex;
+height: 90px;
+justify-content: space-between;
+color: white;
+}
+.NavBar-logo{
+    width: 100%;
+    height: 100%;
+}
+.NavBar-logo-container{
+    position: relative;
+    width: 135px;
+    height: 90px;
+}
+.NavBar-button-group {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.NavBar-button-left, .NavBar-button-right {
+    padding: 10px 20px;
+    color: white;
+    background-color: #404EED;
+    cursor: pointer;
+    font-family:  'Actor';
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.1);
+}
+
+.NavBar-button-left {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px ;
+    border-right: gray;
+}
+
+.NavBar-button-right {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: 1px solid black;
+}
+
+.NavBar-button-left:hover, .NavBar-button-right:hover {
+    background-color: white;
+    color: #404EED;
+}

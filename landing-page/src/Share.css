@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+
+.sh-ContCont{
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.sh-container {
+    display: flex;
+    flex-direction: row; 
+    background-color: #F6F6F6;
+    height: 800px;
+    width: 1800px;
+    overflow: hidden;
+  }
+.sh-text-container{
+    display:flex;
+    flex-direction: column;
+    padding-left: 10%;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50px);
+
+  }
+.sh-header{
+    font-family: 'Actor';
+    font-size: 42px;
+    padding-left: 5%;
+    color: black;
+  }
+.sh-content{
+    font-family: 'Actor';
+    font-size: 28px;
+    color: black;
+    width: 400px;
+  }
+.sh-img{
+    height: 800px;
+    width:1600px;
+    padding-left: 7%;
+    transform: translateY(-40px);
+    transform: translateX(-50px);
+  }
